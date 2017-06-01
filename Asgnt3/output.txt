@@ -1,0 +1,924 @@
+Simple test
+Query:['plummeted', 'national', 'assasinate', 'rose', 'nature']
+The top 6 documents for the query are:
+Doc=>69 DocId=>45
+Doc=>158 DocId=>116
+Doc=>562 DocId=>422
+Doc=>542 DocId=>404
+Doc=>337 DocId=>271
+Doc=>239 DocId=>181
+Enter positive feedback documents(if any space separated):69 158
+Enter negative feedback documents(if any space separated):239
+Output after Rocchio algorithm is applied:
+The top 6 documents for the query are:
+Doc=>69 DocId=>45
+Doc=>158 DocId=>116
+Doc=>30 DocId=>13
+Doc=>143 DocId=>101
+Doc=>102 DocId=>69
+Doc=>197 DocId=>149
+
+
+Find 68 query used for analysis:['indian', 'fears', 'communist', 'chinese', 'invasion']
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>396 DocId=>308
+Doc=>101 DocId=>68
+Doc=>365 DocId=>290
+Doc=>122 DocId=>87
+Doc=>560 DocId=>420
+Doc=>563 DocId=>423
+Doc=>492 DocId=>364
+Doc=>130 DocId=>92
+Doc=>113 DocId=>79
+Doc=>402 DocId=>313
+Doc=>96 DocId=>63
+Doc=>24 DocId=>7
+Doc=>242 DocId=>184
+Doc=>541 DocId=>403
+Doc=>230 DocId=>173
+Doc=>394 DocId=>307
+Doc=>553 DocId=>414
+
+Enter positive feedback documents for next query(if any space separated, doc number(not id):70 54
+Enter negative feedback documents for next query(if any space separated, doc number(not id)):553
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>560 DocId=>420
+Doc=>24 DocId=>7
+Doc=>242 DocId=>184
+Doc=>96 DocId=>63
+Doc=>122 DocId=>87
+Doc=>396 DocId=>308
+Doc=>365 DocId=>290
+Doc=>101 DocId=>68
+Doc=>25 DocId=>8
+Doc=>413 DocId=>322
+Doc=>492 DocId=>364
+Doc=>130 DocId=>92
+Doc=>113 DocId=>79
+Doc=>404 DocId=>315
+Doc=>563 DocId=>423
+Doc=>550 DocId=>411
+Doc=>557 DocId=>417
+Enter positive feedback documents(if any space separated, doc number(not id)):24 25
+Enter negative feedback documents(if any space separated, doc number(not id)):557
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>24 DocId=>7
+Doc=>25 DocId=>8
+Doc=>242 DocId=>184
+Doc=>96 DocId=>63
+Doc=>560 DocId=>420
+Doc=>304 DocId=>243
+Doc=>461 DocId=>346
+Doc=>365 DocId=>290
+Doc=>413 DocId=>322
+Doc=>396 DocId=>308
+Doc=>404 DocId=>315
+Doc=>122 DocId=>87
+Doc=>550 DocId=>411
+Doc=>101 DocId=>68
+Doc=>113 DocId=>79
+Doc=>204 DocId=>156
+Doc=>394 DocId=>307
+Doc=>557 DocId=>417
+Enter positive feedback documents(if any space separated, doc number(not id)):394
+Enter negative feedback documents(if any space separated, doc number(not id)):557 204
+The top 20 documents for the query are:
+Doc=>394 DocId=>307
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>24 DocId=>7
+Doc=>25 DocId=>8
+Doc=>365 DocId=>290
+Doc=>242 DocId=>184
+Doc=>96 DocId=>63
+Doc=>364 DocId=>289
+Doc=>560 DocId=>420
+Doc=>404 DocId=>315
+Doc=>304 DocId=>243
+Doc=>346 DocId=>275
+Doc=>381 DocId=>296
+Doc=>351 DocId=>279
+Doc=>449 DocId=>343
+Doc=>353 DocId=>280
+Doc=>461 DocId=>346
+Doc=>396 DocId=>308
+Doc=>550 DocId=>411
+Enter positive feedback documents(if any space separated, doc number(not id)):96 242
+Enter negative feedback documents(if any space separated, doc number(not id)):550 396 461
+The top 20 documents for the query are:
+Doc=>394 DocId=>307
+Doc=>96 DocId=>63
+Doc=>242 DocId=>184
+Doc=>24 DocId=>7
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>25 DocId=>8
+Doc=>461 DocId=>346
+Doc=>560 DocId=>420
+Doc=>365 DocId=>290
+Doc=>404 DocId=>315
+Doc=>304 DocId=>243
+Doc=>364 DocId=>289
+Doc=>413 DocId=>322
+Doc=>449 DocId=>343
+Doc=>381 DocId=>296
+Doc=>351 DocId=>279
+Doc=>353 DocId=>280
+Doc=>346 DocId=>275
+Doc=>204 DocId=>156
+
+Query 1
+Precision[0.25, 0.25, 0.25, 0.25, 0.25]
+Recall[0.625, 0.625, 0.625, 0.625, 0.625]
+MAP[0.35031897926634764, 0.4083333333333334, 0.5328947368421053, 0.625, 0.4351190476190476]
+
+
+Find 63 query used for analysis:['president', 'nasser', 'ruling', 'arab', 'union', 'present', 'governing', 'party', 'syria', 'remains', 'control']
+The top 30 documents for the query are:
+Doc=>398 DocId=>309
+Doc=>215 DocId=>159
+Doc=>268 DocId=>210
+Doc=>157 DocId=>115
+Doc=>283 DocId=>224
+Doc=>522 DocId=>386
+Doc=>121 DocId=>86
+Doc=>187 DocId=>139
+Doc=>267 DocId=>209
+Doc=>252 DocId=>194
+Doc=>509 DocId=>377
+Doc=>295 DocId=>234
+Doc=>59 DocId=>35
+Doc=>140 DocId=>100
+Doc=>27 DocId=>10
+Doc=>239 DocId=>181
+Doc=>253 DocId=>195
+Doc=>163 DocId=>121
+Doc=>104 DocId=>70
+Doc=>538 DocId=>400
+Doc=>294 DocId=>233
+Doc=>87 DocId=>55
+Doc=>138 DocId=>99
+Doc=>302 DocId=>241
+Doc=>49 DocId=>26
+Doc=>284 DocId=>225
+Doc=>525 DocId=>389
+Doc=>446 DocId=>342
+Doc=>548 DocId=>409
+Doc=>60 DocId=>36
+
+Enter positive feedback documents for next query(if any space separated, doc number(not id):398 215
+Enter negative feedback documents for next query(if any space separated, doc number(not id)):60
+The top 30 documents for the query are:
+Doc=>398 DocId=>309
+Doc=>215 DocId=>159
+Doc=>157 DocId=>115
+Doc=>268 DocId=>210
+Doc=>140 DocId=>100
+Doc=>252 DocId=>194
+Doc=>509 DocId=>377
+Doc=>522 DocId=>386
+Doc=>163 DocId=>121
+Doc=>295 DocId=>234
+Doc=>187 DocId=>139
+Doc=>59 DocId=>35
+Doc=>283 DocId=>224
+Doc=>121 DocId=>86
+Doc=>104 DocId=>70
+Doc=>87 DocId=>55
+Doc=>253 DocId=>195
+Doc=>27 DocId=>10
+Doc=>267 DocId=>209
+Doc=>138 DocId=>99
+Doc=>239 DocId=>181
+Doc=>294 DocId=>233
+Doc=>333 DocId=>267
+Doc=>284 DocId=>225
+Doc=>49 DocId=>26
+Doc=>446 DocId=>342
+Doc=>302 DocId=>241
+Doc=>538 DocId=>400
+Doc=>459 DocId=>344
+Doc=>525 DocId=>389
+Enter positive feedback documents(if any space separated, doc number(not id)):283 268
+Enter negative feedback documents(if any space separated, doc number(not id)):525 459 538
+The top 30 documents for the query are:
+Doc=>268 DocId=>210
+Doc=>283 DocId=>224
+Doc=>398 DocId=>309
+Doc=>215 DocId=>159
+Doc=>157 DocId=>115
+Doc=>140 DocId=>100
+Doc=>522 DocId=>386
+Doc=>252 DocId=>194
+Doc=>187 DocId=>139
+Doc=>509 DocId=>377
+Doc=>295 DocId=>234
+Doc=>163 DocId=>121
+Doc=>59 DocId=>35
+Doc=>121 DocId=>86
+Doc=>87 DocId=>55
+Doc=>104 DocId=>70
+Doc=>253 DocId=>195
+Doc=>239 DocId=>181
+Doc=>27 DocId=>10
+Doc=>138 DocId=>99
+Doc=>267 DocId=>209
+Doc=>294 DocId=>233
+Doc=>333 DocId=>267
+Doc=>49 DocId=>26
+Doc=>446 DocId=>342
+Doc=>284 DocId=>225
+Doc=>459 DocId=>344
+Doc=>68 DocId=>44
+Doc=>98 DocId=>65
+Doc=>445 DocId=>341
+Enter positive feedback documents(if any space separated, doc number(not id)):163 140 121
+Enter negative feedback documents(if any space separated, doc number(not id)):445
+The top 30 documents for the query are:
+Doc=>268 DocId=>210
+Doc=>283 DocId=>224
+Doc=>140 DocId=>100
+Doc=>215 DocId=>159
+Doc=>163 DocId=>121
+Doc=>398 DocId=>309
+Doc=>121 DocId=>86
+Doc=>157 DocId=>115
+Doc=>509 DocId=>377
+Doc=>252 DocId=>194
+Doc=>522 DocId=>386
+Doc=>87 DocId=>55
+Doc=>187 DocId=>139
+Doc=>295 DocId=>234
+Doc=>104 DocId=>70
+Doc=>253 DocId=>195
+Doc=>27 DocId=>10
+Doc=>138 DocId=>99
+Doc=>59 DocId=>35
+Doc=>333 DocId=>267
+Doc=>239 DocId=>181
+Doc=>294 DocId=>233
+Doc=>267 DocId=>209
+Doc=>459 DocId=>344
+Doc=>49 DocId=>26
+Doc=>449 DocId=>343
+Doc=>446 DocId=>342
+Doc=>204 DocId=>156
+Doc=>418 DocId=>326
+Doc=>71 DocId=>47
+Enter positive feedback documents(if any space separated, doc number(not id)):104
+Enter negative feedback documents(if any space separated, doc number(not id)):71
+The top 30 documents for the query are:
+Doc=>104 DocId=>70
+Doc=>140 DocId=>100
+Doc=>268 DocId=>210
+Doc=>163 DocId=>121
+Doc=>283 DocId=>224
+Doc=>215 DocId=>159
+Doc=>121 DocId=>86
+Doc=>398 DocId=>309
+Doc=>157 DocId=>115
+Doc=>509 DocId=>377
+Doc=>522 DocId=>386
+Doc=>87 DocId=>55
+Doc=>252 DocId=>194
+Doc=>187 DocId=>139
+Doc=>295 DocId=>234
+Doc=>27 DocId=>10
+Doc=>239 DocId=>181
+Doc=>253 DocId=>195
+Doc=>294 DocId=>233
+Doc=>59 DocId=>35
+Doc=>138 DocId=>99
+Doc=>333 DocId=>267
+Doc=>267 DocId=>209
+Doc=>449 DocId=>343
+Doc=>204 DocId=>156
+Doc=>49 DocId=>26
+Doc=>459 DocId=>344
+Doc=>498 DocId=>370
+Doc=>418 DocId=>326
+Doc=>422 DocId=>327
+
+Query 2
+Precision[0.3, 0.3, 0.3, 0.3, 0.3]
+Recall[0.8181818181818182, 0.8181818181818182, 0.8181818181818182, 0.8181818181818182, 0.8181818181818182]
+MAP[0.6112887112887112, 0.6265068265068264, 0.6749916749916749, 0.7521531100478469, 0.5770479520479521]
+
+
+Find 55 query used for analysis:['suggestion', 'president', 'kennedy', 'nato', 'nuclear', 'missile', 'fleet', 'manned', 'international', 'crews']
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>213 DocId=>157
+Doc=>308 DocId=>247
+Doc=>540 DocId=>402
+Doc=>17 DocId=>1
+Doc=>183 DocId=>135
+Doc=>558 DocId=>418
+Doc=>380 DocId=>295
+Doc=>62 DocId=>38
+Doc=>367 DocId=>291
+Doc=>492 DocId=>364
+Doc=>196 DocId=>148
+Doc=>287 DocId=>228
+Doc=>560 DocId=>420
+Doc=>218 DocId=>161
+Doc=>245 DocId=>187
+Doc=>107 DocId=>73
+Doc=>243 DocId=>185
+Doc=>356 DocId=>283
+Doc=>52 DocId=>29
+Doc=>86 DocId=>54
+Doc=>296 DocId=>235
+Doc=>85 DocId=>53
+Doc=>50 DocId=>27
+Doc=>364 DocId=>289
+Doc=>561 DocId=>421
+Doc=>475 DocId=>354
+Doc=>231 DocId=>174
+Doc=>399 DocId=>310
+
+Enter positive feedback documents for next query(if any space separated, doc number(not id):86 126 317
+Enter negative feedback documents for next query(if any space separated, doc number(not id)):399 231
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>86 DocId=>54
+Doc=>213 DocId=>157
+Doc=>308 DocId=>247
+Doc=>183 DocId=>135
+Doc=>17 DocId=>1
+Doc=>540 DocId=>402
+Doc=>287 DocId=>228
+Doc=>196 DocId=>148
+Doc=>62 DocId=>38
+Doc=>380 DocId=>295
+Doc=>71 DocId=>47
+Doc=>558 DocId=>418
+Doc=>85 DocId=>53
+Doc=>367 DocId=>291
+Doc=>560 DocId=>420
+Doc=>492 DocId=>364
+Doc=>243 DocId=>185
+Doc=>107 DocId=>73
+Doc=>341 DocId=>272
+Doc=>231 DocId=>174
+Doc=>392 DocId=>306
+Doc=>356 DocId=>283
+Doc=>50 DocId=>27
+Doc=>45 DocId=>23
+Doc=>105 DocId=>71
+Doc=>511 DocId=>378
+Doc=>274 DocId=>215
+Doc=>181 DocId=>133
+Enter positive feedback documents(if any space separated, doc number(not id)):17 287
+Enter negative feedback documents(if any space separated, doc number(not id)):181
+The top 30 documents for the query are:
+Doc=>17 DocId=>1
+Doc=>287 DocId=>228
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>86 DocId=>54
+Doc=>213 DocId=>157
+Doc=>183 DocId=>135
+Doc=>308 DocId=>247
+Doc=>540 DocId=>402
+Doc=>71 DocId=>47
+Doc=>196 DocId=>148
+Doc=>85 DocId=>53
+Doc=>62 DocId=>38
+Doc=>380 DocId=>295
+Doc=>558 DocId=>418
+Doc=>367 DocId=>291
+Doc=>392 DocId=>306
+Doc=>231 DocId=>174
+Doc=>341 DocId=>272
+Doc=>260 DocId=>202
+Doc=>492 DocId=>364
+Doc=>45 DocId=>23
+Doc=>511 DocId=>378
+Doc=>560 DocId=>420
+Doc=>72 DocId=>48
+Doc=>55 DocId=>32
+Doc=>63 DocId=>39
+Doc=>243 DocId=>185
+Doc=>163 DocId=>121
+Doc=>88 DocId=>56
+Enter positive feedback documents(if any space separated, doc number(not id)):85 71 213
+Enter negative feedback documents(if any space separated, doc number(not id)):88 163 243 63 55
+The top 30 documents for the query are:
+Doc=>17 DocId=>1
+Doc=>213 DocId=>157
+Doc=>287 DocId=>228
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>71 DocId=>47
+Doc=>85 DocId=>53
+Doc=>86 DocId=>54
+Doc=>183 DocId=>135
+Doc=>308 DocId=>247
+Doc=>540 DocId=>402
+Doc=>196 DocId=>148
+Doc=>380 DocId=>295
+Doc=>260 DocId=>202
+Doc=>558 DocId=>418
+Doc=>62 DocId=>38
+Doc=>367 DocId=>291
+Doc=>511 DocId=>378
+Doc=>231 DocId=>174
+Doc=>72 DocId=>48
+Doc=>45 DocId=>23
+Doc=>341 DocId=>272
+Doc=>392 DocId=>306
+Doc=>492 DocId=>364
+Doc=>163 DocId=>121
+Doc=>199 DocId=>151
+Doc=>40 DocId=>20
+Doc=>404 DocId=>315
+Doc=>88 DocId=>56
+Doc=>365 DocId=>290
+Enter positive feedback documents(if any space separated, doc number(not id)):558
+Enter negative feedback documents(if any space separated, doc number(not id)):365 88 404
+The top 30 documents for the query are:
+Doc=>558 DocId=>418
+Doc=>213 DocId=>157
+Doc=>17 DocId=>1
+Doc=>287 DocId=>228
+Doc=>126 DocId=>89
+Doc=>71 DocId=>47
+Doc=>317 DocId=>254
+Doc=>85 DocId=>53
+Doc=>86 DocId=>54
+Doc=>183 DocId=>135
+Doc=>540 DocId=>402
+Doc=>308 DocId=>247
+Doc=>380 DocId=>295
+Doc=>196 DocId=>148
+Doc=>511 DocId=>378
+Doc=>62 DocId=>38
+Doc=>260 DocId=>202
+Doc=>392 DocId=>306
+Doc=>72 DocId=>48
+Doc=>231 DocId=>174
+Doc=>163 DocId=>121
+Doc=>341 DocId=>272
+Doc=>492 DocId=>364
+Doc=>367 DocId=>291
+Doc=>365 DocId=>290
+Doc=>40 DocId=>20
+Doc=>55 DocId=>32
+Doc=>485 DocId=>360
+Doc=>45 DocId=>23
+Doc=>370 DocId=>294
+
+Query 3
+Precision[0.26666666666666666, 0.3333333333333333, 0.3333333333333333, 0.3333333333333333, 0.36666666666666664]
+Recall[0.6666666666666666, 0.8333333333333334, 0.8333333333333334, 0.8333333333333334, 0.9166666666666666]
+MAP[0.5461760461760461, 0.7547822547822548, 0.7855263157894737, 0.7598695286195287, 0.6318602693602694]
+
+
+Find 68 query used for analysis:['indian', 'fears', 'communist', 'chinese', 'invasion']
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>396 DocId=>308
+Doc=>101 DocId=>68
+Doc=>365 DocId=>290
+Doc=>122 DocId=>87
+Doc=>560 DocId=>420
+Doc=>563 DocId=>423
+Doc=>492 DocId=>364
+Doc=>130 DocId=>92
+Doc=>113 DocId=>79
+Doc=>402 DocId=>313
+Doc=>96 DocId=>63
+Doc=>24 DocId=>7
+Doc=>242 DocId=>184
+Doc=>541 DocId=>403
+Doc=>230 DocId=>173
+Doc=>394 DocId=>307
+Doc=>553 DocId=>414
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>413 DocId=>322
+Doc=>560 DocId=>420
+Doc=>24 DocId=>7
+Doc=>242 DocId=>184
+Doc=>365 DocId=>290
+Doc=>396 DocId=>308
+Doc=>122 DocId=>87
+Doc=>101 DocId=>68
+Doc=>96 DocId=>63
+Doc=>113 DocId=>79
+Doc=>25 DocId=>8
+Doc=>130 DocId=>92
+Doc=>563 DocId=>423
+Doc=>492 DocId=>364
+Doc=>424 DocId=>328
+Doc=>501 DocId=>371
+Doc=>404 DocId=>315
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>413 DocId=>322
+Doc=>560 DocId=>420
+Doc=>24 DocId=>7
+Doc=>242 DocId=>184
+Doc=>424 DocId=>328
+Doc=>25 DocId=>8
+Doc=>96 DocId=>63
+Doc=>365 DocId=>290
+Doc=>122 DocId=>87
+Doc=>501 DocId=>371
+Doc=>396 DocId=>308
+Doc=>404 DocId=>315
+Doc=>101 DocId=>68
+Doc=>113 DocId=>79
+Doc=>204 DocId=>156
+Doc=>130 DocId=>92
+Doc=>550 DocId=>411
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>413 DocId=>322
+Doc=>560 DocId=>420
+Doc=>24 DocId=>7
+Doc=>242 DocId=>184
+Doc=>424 DocId=>328
+Doc=>25 DocId=>8
+Doc=>501 DocId=>371
+Doc=>96 DocId=>63
+Doc=>404 DocId=>315
+Doc=>365 DocId=>290
+Doc=>122 DocId=>87
+Doc=>204 DocId=>156
+Doc=>396 DocId=>308
+Doc=>550 DocId=>411
+Doc=>470 DocId=>350
+Doc=>259 DocId=>201
+Doc=>226 DocId=>169
+The top 20 documents for the query are:
+Doc=>70 DocId=>46
+Doc=>54 DocId=>31
+Doc=>304 DocId=>243
+Doc=>413 DocId=>322
+Doc=>24 DocId=>7
+Doc=>560 DocId=>420
+Doc=>242 DocId=>184
+Doc=>424 DocId=>328
+Doc=>25 DocId=>8
+Doc=>501 DocId=>371
+Doc=>96 DocId=>63
+Doc=>404 DocId=>315
+Doc=>204 DocId=>156
+Doc=>550 DocId=>411
+Doc=>470 DocId=>350
+Doc=>365 DocId=>290
+Doc=>259 DocId=>201
+Doc=>122 DocId=>87
+Doc=>226 DocId=>169
+Doc=>557 DocId=>417
+
+Query 1
+Precision[0.25, 0.3, 0.3, 0.25, 0.25]
+Recall[0.625, 0.75, 0.75, 0.625, 0.625]
+MAP[0.35031897926634764, 0.43154761904761907, 0.48391812865497075, 0.4444444444444444, 0.4569444444444445]
+
+
+Find 63 query used for analysis:['president', 'nasser', 'ruling', 'arab', 'union', 'present', 'governing', 'party', 'syria', 'remains', 'control']
+The top 30 documents for the query are:
+Doc=>398 DocId=>309
+Doc=>215 DocId=>159
+Doc=>268 DocId=>210
+Doc=>157 DocId=>115
+Doc=>283 DocId=>224
+Doc=>522 DocId=>386
+Doc=>121 DocId=>86
+Doc=>187 DocId=>139
+Doc=>267 DocId=>209
+Doc=>252 DocId=>194
+Doc=>509 DocId=>377
+Doc=>295 DocId=>234
+Doc=>59 DocId=>35
+Doc=>140 DocId=>100
+Doc=>27 DocId=>10
+Doc=>239 DocId=>181
+Doc=>253 DocId=>195
+Doc=>163 DocId=>121
+Doc=>104 DocId=>70
+Doc=>538 DocId=>400
+Doc=>294 DocId=>233
+Doc=>87 DocId=>55
+Doc=>138 DocId=>99
+Doc=>302 DocId=>241
+Doc=>49 DocId=>26
+Doc=>284 DocId=>225
+Doc=>525 DocId=>389
+Doc=>446 DocId=>342
+Doc=>548 DocId=>409
+Doc=>60 DocId=>36
+The top 30 documents for the query are:
+Doc=>398 DocId=>309
+Doc=>215 DocId=>159
+Doc=>268 DocId=>210
+Doc=>157 DocId=>115
+Doc=>283 DocId=>224
+Doc=>140 DocId=>100
+Doc=>522 DocId=>386
+Doc=>252 DocId=>194
+Doc=>509 DocId=>377
+Doc=>187 DocId=>139
+Doc=>295 DocId=>234
+Doc=>163 DocId=>121
+Doc=>59 DocId=>35
+Doc=>121 DocId=>86
+Doc=>87 DocId=>55
+Doc=>104 DocId=>70
+Doc=>253 DocId=>195
+Doc=>27 DocId=>10
+Doc=>267 DocId=>209
+Doc=>239 DocId=>181
+Doc=>138 DocId=>99
+Doc=>294 DocId=>233
+Doc=>333 DocId=>267
+Doc=>49 DocId=>26
+Doc=>284 DocId=>225
+Doc=>60 DocId=>36
+Doc=>446 DocId=>342
+Doc=>302 DocId=>241
+Doc=>538 DocId=>400
+Doc=>459 DocId=>344
+The top 30 documents for the query are:
+Doc=>398 DocId=>309
+Doc=>268 DocId=>210
+Doc=>215 DocId=>159
+Doc=>157 DocId=>115
+Doc=>283 DocId=>224
+Doc=>140 DocId=>100
+Doc=>522 DocId=>386
+Doc=>252 DocId=>194
+Doc=>163 DocId=>121
+Doc=>509 DocId=>377
+Doc=>187 DocId=>139
+Doc=>295 DocId=>234
+Doc=>59 DocId=>35
+Doc=>87 DocId=>55
+Doc=>121 DocId=>86
+Doc=>104 DocId=>70
+Doc=>253 DocId=>195
+Doc=>27 DocId=>10
+Doc=>138 DocId=>99
+Doc=>239 DocId=>181
+Doc=>267 DocId=>209
+Doc=>333 DocId=>267
+Doc=>294 DocId=>233
+Doc=>284 DocId=>225
+Doc=>49 DocId=>26
+Doc=>459 DocId=>344
+Doc=>60 DocId=>36
+Doc=>446 DocId=>342
+Doc=>418 DocId=>326
+Doc=>302 DocId=>241
+The top 30 documents for the query are:
+Doc=>398 DocId=>309
+Doc=>268 DocId=>210
+Doc=>215 DocId=>159
+Doc=>157 DocId=>115
+Doc=>283 DocId=>224
+Doc=>140 DocId=>100
+Doc=>522 DocId=>386
+Doc=>163 DocId=>121
+Doc=>252 DocId=>194
+Doc=>509 DocId=>377
+Doc=>295 DocId=>234
+Doc=>187 DocId=>139
+Doc=>87 DocId=>55
+Doc=>59 DocId=>35
+Doc=>104 DocId=>70
+Doc=>121 DocId=>86
+Doc=>253 DocId=>195
+Doc=>27 DocId=>10
+Doc=>138 DocId=>99
+Doc=>239 DocId=>181
+Doc=>333 DocId=>267
+Doc=>294 DocId=>233
+Doc=>267 DocId=>209
+Doc=>459 DocId=>344
+Doc=>284 DocId=>225
+Doc=>49 DocId=>26
+Doc=>60 DocId=>36
+Doc=>418 DocId=>326
+Doc=>446 DocId=>342
+Doc=>204 DocId=>156
+The top 30 documents for the query are:
+Doc=>268 DocId=>210
+Doc=>398 DocId=>309
+Doc=>215 DocId=>159
+Doc=>157 DocId=>115
+Doc=>283 DocId=>224
+Doc=>140 DocId=>100
+Doc=>163 DocId=>121
+Doc=>522 DocId=>386
+Doc=>252 DocId=>194
+Doc=>509 DocId=>377
+Doc=>295 DocId=>234
+Doc=>187 DocId=>139
+Doc=>87 DocId=>55
+Doc=>59 DocId=>35
+Doc=>104 DocId=>70
+Doc=>121 DocId=>86
+Doc=>253 DocId=>195
+Doc=>138 DocId=>99
+Doc=>27 DocId=>10
+Doc=>239 DocId=>181
+Doc=>333 DocId=>267
+Doc=>294 DocId=>233
+Doc=>267 DocId=>209
+Doc=>459 DocId=>344
+Doc=>284 DocId=>225
+Doc=>60 DocId=>36
+Doc=>49 DocId=>26
+Doc=>418 DocId=>326
+Doc=>204 DocId=>156
+Doc=>446 DocId=>342
+
+Query 2
+Precision[0.3, 0.3, 0.3, 0.3, 0.3]
+Recall[0.8181818181818182, 0.8181818181818182, 0.8181818181818182, 0.8181818181818182, 0.8181818181818182]
+MAP[0.6112887112887112, 0.6568098568098568, 0.6705905205905206, 0.6631854256854256, 0.6729256854256853]
+
+
+Find 55 query used for analysis:['suggestion', 'president', 'kennedy', 'nato', 'nuclear', 'missile', 'fleet', 'manned', 'international', 'crews']
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>213 DocId=>157
+Doc=>308 DocId=>247
+Doc=>540 DocId=>402
+Doc=>17 DocId=>1
+Doc=>183 DocId=>135
+Doc=>558 DocId=>418
+Doc=>380 DocId=>295
+Doc=>62 DocId=>38
+Doc=>367 DocId=>291
+Doc=>492 DocId=>364
+Doc=>196 DocId=>148
+Doc=>287 DocId=>228
+Doc=>560 DocId=>420
+Doc=>218 DocId=>161
+Doc=>245 DocId=>187
+Doc=>107 DocId=>73
+Doc=>243 DocId=>185
+Doc=>356 DocId=>283
+Doc=>52 DocId=>29
+Doc=>86 DocId=>54
+Doc=>296 DocId=>235
+Doc=>85 DocId=>53
+Doc=>50 DocId=>27
+Doc=>364 DocId=>289
+Doc=>561 DocId=>421
+Doc=>475 DocId=>354
+Doc=>231 DocId=>174
+Doc=>399 DocId=>310
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>213 DocId=>157
+Doc=>308 DocId=>247
+Doc=>183 DocId=>135
+Doc=>17 DocId=>1
+Doc=>540 DocId=>402
+Doc=>287 DocId=>228
+Doc=>196 DocId=>148
+Doc=>558 DocId=>418
+Doc=>380 DocId=>295
+Doc=>62 DocId=>38
+Doc=>86 DocId=>54
+Doc=>71 DocId=>47
+Doc=>85 DocId=>53
+Doc=>492 DocId=>364
+Doc=>560 DocId=>420
+Doc=>367 DocId=>291
+Doc=>231 DocId=>174
+Doc=>243 DocId=>185
+Doc=>341 DocId=>272
+Doc=>356 DocId=>283
+Doc=>107 DocId=>73
+Doc=>45 DocId=>23
+Doc=>392 DocId=>306
+Doc=>364 DocId=>289
+Doc=>511 DocId=>378
+Doc=>63 DocId=>39
+Doc=>50 DocId=>27
+Doc=>181 DocId=>133
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>213 DocId=>157
+Doc=>308 DocId=>247
+Doc=>183 DocId=>135
+Doc=>17 DocId=>1
+Doc=>540 DocId=>402
+Doc=>287 DocId=>228
+Doc=>196 DocId=>148
+Doc=>86 DocId=>54
+Doc=>71 DocId=>47
+Doc=>62 DocId=>38
+Doc=>558 DocId=>418
+Doc=>85 DocId=>53
+Doc=>380 DocId=>295
+Doc=>492 DocId=>364
+Doc=>231 DocId=>174
+Doc=>560 DocId=>420
+Doc=>341 DocId=>272
+Doc=>367 DocId=>291
+Doc=>511 DocId=>378
+Doc=>45 DocId=>23
+Doc=>243 DocId=>185
+Doc=>404 DocId=>315
+Doc=>392 DocId=>306
+Doc=>260 DocId=>202
+Doc=>485 DocId=>360
+Doc=>181 DocId=>133
+Doc=>72 DocId=>48
+Doc=>63 DocId=>39
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>317 DocId=>254
+Doc=>213 DocId=>157
+Doc=>183 DocId=>135
+Doc=>308 DocId=>247
+Doc=>17 DocId=>1
+Doc=>540 DocId=>402
+Doc=>287 DocId=>228
+Doc=>71 DocId=>47
+Doc=>86 DocId=>54
+Doc=>196 DocId=>148
+Doc=>85 DocId=>53
+Doc=>62 DocId=>38
+Doc=>558 DocId=>418
+Doc=>380 DocId=>295
+Doc=>231 DocId=>174
+Doc=>341 DocId=>272
+Doc=>511 DocId=>378
+Doc=>492 DocId=>364
+Doc=>560 DocId=>420
+Doc=>45 DocId=>23
+Doc=>404 DocId=>315
+Doc=>367 DocId=>291
+Doc=>260 DocId=>202
+Doc=>392 DocId=>306
+Doc=>243 DocId=>185
+Doc=>485 DocId=>360
+Doc=>72 DocId=>48
+Doc=>181 DocId=>133
+Doc=>163 DocId=>121
+The top 30 documents for the query are:
+Doc=>126 DocId=>89
+Doc=>213 DocId=>157
+Doc=>317 DocId=>254
+Doc=>183 DocId=>135
+Doc=>308 DocId=>247
+Doc=>17 DocId=>1
+Doc=>540 DocId=>402
+Doc=>287 DocId=>228
+Doc=>71 DocId=>47
+Doc=>86 DocId=>54
+Doc=>196 DocId=>148
+Doc=>85 DocId=>53
+Doc=>62 DocId=>38
+Doc=>558 DocId=>418
+Doc=>380 DocId=>295
+Doc=>341 DocId=>272
+Doc=>511 DocId=>378
+Doc=>231 DocId=>174
+Doc=>45 DocId=>23
+Doc=>560 DocId=>420
+Doc=>492 DocId=>364
+Doc=>404 DocId=>315
+Doc=>260 DocId=>202
+Doc=>163 DocId=>121
+Doc=>72 DocId=>48
+Doc=>392 DocId=>306
+Doc=>485 DocId=>360
+Doc=>367 DocId=>291
+Doc=>181 DocId=>133
+Doc=>243 DocId=>185
+
+Query 3
+Precision[0.26666666666666666, 0.3333333333333333, 0.36666666666666664, 0.36666666666666664, 0.36666666666666664]
+Recall[0.6666666666666666, 0.8333333333333334, 0.9166666666666666, 0.9166666666666666, 0.9166666666666666]
+MAP[0.5461760461760461, 0.7174526862026861, 0.7855754179219091, 0.8049609658678286, 0.8080246913580247]

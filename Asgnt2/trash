@@ -1,0 +1,48 @@
+Exact query search in 0.0013658353148277014 seconds.
+Result for exact query search for query: ['procession', 'dynasties', 'profusion', 'wary', 'royalists', 'dinnertime', 'prefecture', 'scanned', 'overplaying', 'cheny', 'thriving', 'grown', 'titled', 'distiller', 'bureaucracy', 'wings', 'dives', 'collaborate', 'orda', 'northumberland', 'acquittal', 'critic', 'tasks', 'surprising', 'argyll', 'fines', 'ambulances', 'grouped', 'blowing', 'oval', 'fun', 'hotel', 'wins', 'lawrence', 'skipped', 'penniless', 'signature', 'challenge', 'interspersed', 'fuselage', 'decades', 'cafe', 'blastoff', 'tass', 'groom', 'bandleader', 'objects', 'winter', 'thoroughfares', 'occurred', 'displaced', 'foremost', 'billhatted', 'militarily', 'norman', 'grove', 'bauxite', 'attassi', 'colombian', 'berlioz', 'filtered', 'gotten', 'bs', 'successes', 'capitol', 'listless', 'people', 'outboards', 'saps', 'unscheduled', 'preserves', 'stalwart', 'smooch', 'exactly', 'leaving', 'beausoleil', 'person', 'neptune', 'pearls', 'stationmaster', 'communally', 'suffering', 'directly', 'demoralized', 'montparnasse', 'footing', 'committing', 'intently', 'budapest', 'joining', 'possibilities', 'svetlana', 'toddle', 'predictions', 'pygmalion', 'devised', 'gaily', 'service', 'prompt']
+Text-362.txt
+Text-214.txt
+Text-152.txt
+Text-121.txt
+Text-274.txt
+Text-78.txt
+Text-101.txt
+Text-208.txt
+Text-32.txt
+Text-220.txt
+Inexact champion query search in 0.0008017662668645675 seconds.
+Result for inexact champion search for query: ['procession', 'dynasties', 'profusion', 'wary', 'royalists', 'dinnertime', 'prefecture', 'scanned', 'overplaying', 'cheny', 'thriving', 'grown', 'titled', 'distiller', 'bureaucracy', 'wings', 'dives', 'collaborate', 'orda', 'northumberland', 'acquittal', 'critic', 'tasks', 'surprising', 'argyll', 'fines', 'ambulances', 'grouped', 'blowing', 'oval', 'fun', 'hotel', 'wins', 'lawrence', 'skipped', 'penniless', 'signature', 'challenge', 'interspersed', 'fuselage', 'decades', 'cafe', 'blastoff', 'tass', 'groom', 'bandleader', 'objects', 'winter', 'thoroughfares', 'occurred', 'displaced', 'foremost', 'billhatted', 'militarily', 'norman', 'grove', 'bauxite', 'attassi', 'colombian', 'berlioz', 'filtered', 'gotten', 'bs', 'successes', 'capitol', 'listless', 'people', 'outboards', 'saps', 'unscheduled', 'preserves', 'stalwart', 'smooch', 'exactly', 'leaving', 'beausoleil', 'person', 'neptune', 'pearls', 'stationmaster', 'communally', 'suffering', 'directly', 'demoralized', 'montparnasse', 'footing', 'committing', 'intently', 'budapest', 'joining', 'possibilities', 'svetlana', 'toddle', 'predictions', 'pygmalion', 'devised', 'gaily', 'service', 'prompt']
+Text-362.txt
+Text-214.txt
+Text-152.txt
+Text-121.txt
+Text-274.txt
+Text-78.txt
+Text-208.txt
+Text-101.txt
+Text-16.txt
+Text-245.txt
+Inexact index elimination search in 0.0005989641491834785 seconds.
+Result for inexact index elimination search for query: ['procession', 'dynasties', 'profusion', 'wary', 'royalists', 'dinnertime', 'prefecture', 'scanned', 'overplaying', 'cheny', 'thriving', 'grown', 'titled', 'distiller', 'bureaucracy', 'wings', 'dives', 'collaborate', 'orda', 'northumberland', 'acquittal', 'critic', 'tasks', 'surprising', 'argyll', 'fines', 'ambulances', 'grouped', 'blowing', 'oval', 'fun', 'hotel', 'wins', 'lawrence', 'skipped', 'penniless', 'signature', 'challenge', 'interspersed', 'fuselage', 'decades', 'cafe', 'blastoff', 'tass', 'groom', 'bandleader', 'objects', 'winter', 'thoroughfares', 'occurred', 'displaced', 'foremost', 'billhatted', 'militarily', 'norman', 'grove', 'bauxite', 'attassi', 'colombian', 'berlioz', 'filtered', 'gotten', 'bs', 'successes', 'capitol', 'listless', 'people', 'outboards', 'saps', 'unscheduled', 'preserves', 'stalwart', 'smooch', 'exactly', 'leaving', 'beausoleil', 'person', 'neptune', 'pearls', 'stationmaster', 'communally', 'suffering', 'directly', 'demoralized', 'montparnasse', 'footing', 'committing', 'intently', 'budapest', 'joining', 'possibilities', 'svetlana', 'toddle', 'predictions', 'pygmalion', 'devised', 'gaily', 'service', 'prompt']
+Text-78.txt
+Text-362.txt
+Text-152.txt
+Text-124.txt
+Text-220.txt
+Text-129.txt
+Text-212.txt
+Text-51.txt
+Text-139.txt
+Text-274.txt
+Inexact cluster pruning search in 0.0015571425756361057 seconds.
+Result for inexact cluster pruning search for query: ['procession', 'dynasties', 'profusion', 'wary', 'royalists', 'dinnertime', 'prefecture', 'scanned', 'overplaying', 'cheny', 'thriving', 'grown', 'titled', 'distiller', 'bureaucracy', 'wings', 'dives', 'collaborate', 'orda', 'northumberland', 'acquittal', 'critic', 'tasks', 'surprising', 'argyll', 'fines', 'ambulances', 'grouped', 'blowing', 'oval', 'fun', 'hotel', 'wins', 'lawrence', 'skipped', 'penniless', 'signature', 'challenge', 'interspersed', 'fuselage', 'decades', 'cafe', 'blastoff', 'tass', 'groom', 'bandleader', 'objects', 'winter', 'thoroughfares', 'occurred', 'displaced', 'foremost', 'billhatted', 'militarily', 'norman', 'grove', 'bauxite', 'attassi', 'colombian', 'berlioz', 'filtered', 'gotten', 'bs', 'successes', 'capitol', 'listless', 'people', 'outboards', 'saps', 'unscheduled', 'preserves', 'stalwart', 'smooch', 'exactly', 'leaving', 'beausoleil', 'person', 'neptune', 'pearls', 'stationmaster', 'communally', 'suffering', 'directly', 'demoralized', 'montparnasse', 'footing', 'committing', 'intently', 'budapest', 'joining', 'possibilities', 'svetlana', 'toddle', 'predictions', 'pygmalion', 'devised', 'gaily', 'service', 'prompt']
+Text-349.txt
+Text-298.txt
+Text-303.txt
+Text-119.txt
+Text-12.txt
+Text-416.txt
+Text-13.txt
+Text-352.txt
+Text-166.txt
+Text-278.txt

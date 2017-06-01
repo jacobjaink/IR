@@ -1,0 +1,13 @@
+Merge Algorithm
+
+The list of documents for each query terms provided is fetched and analyzed in sorted order.
+If the values of two list match, we got a hit on the intersecting document which lets both the list pointers to move
+forward. In all unequal cases, the pointer with smaller doc value moves forward. This makes sure the complexity O(m+n). Every value
+in the list is traversed only once and the looping stops when end of either of the loop is reached. The resultant list is compared with rest of the
+query term documents list and the above process repeats.
+
+
+
+Main function
+The main function is already written inside index.py and can be uncommented to verify the output.
+	

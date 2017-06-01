@@ -1,0 +1,12 @@
+PageId and Page Rank for file:test1.txt
+alpha=0.15 iterations=9 Tolerance for rank value to reduce the default 20 iteration:0.001
+[(0, 0.31871104311405202), (2, 0.25180311735983313), (3, 0.17689875897350898), (1, 0.13213712703275793), (4, 0.12044995351984798)]
+
+PageId and Page Rank for file:test2.txt
+alpha=0.15 iterations=10 Tolerance for rank value to reduce the default 20 iteration:0.001
+[(8, 0.146696456733627), (9, 0.14317919507013899), (5, 0.13898927267686687), (3, 0.13446369105816108), (1, 0.12659338718421259)]
+
+PageId and Page Rank for file:test3.txt
+alpha=0.14 iterations=11 Tolerance for rank value to reduce the default 20 iteration:0.001
+[(6, 0.30505978897107711), (3, 0.2456076827490408), (4, 0.21283409491874652), (2, 0.11354079408159674), (0, 0.052773587830294295)]
+
